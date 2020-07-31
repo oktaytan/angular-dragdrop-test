@@ -1,0 +1,21 @@
+// global styles and changing Bulma variables
+
+// Import a Google font
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400&family=Nunito:wght@400;700&display=swap");
+
+$family-sans-serif: "Nunito", sans-serif;
+
+$control-border-with: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// GLOBAL STYLES
+html,
+body {
+  height: 100%;
+}
+
+html {
+  background: url("./assets/background.jpg") no-repeat center center/cover;
+  overflow-y: auto !important;
+}
